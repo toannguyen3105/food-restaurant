@@ -87,6 +87,7 @@ header .logo {
 
 header .logo i {
   color: var(--green);
+  margin-right: 0.5rem;
 }
 
 header .navbar a {
