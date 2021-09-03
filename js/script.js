@@ -25,6 +25,7 @@ var swiper = new Swiper(".home-slider", {
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
+    pauseOnMouseEnter: true,
   },
   pagination: {
     el: ".swiper-pagination",
