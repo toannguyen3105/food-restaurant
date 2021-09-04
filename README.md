@@ -1,49 +1,30 @@
-# SCRAPE steamcommunity.com
+# Food restaurant templates
 
-Get the name and price information of the csgo inventory
+Template of the website selling food.
 
 ## Features
 
-- Clean
-- Fast (>500 request/sec on a single core)
-- Manages request delays and maximum concurrency per domain
-- Automatic cookie and session handling
-- Sync/async/parallel scraping
-- Caching
-- Automatic encoding of non-unicode responses
-- Robots.txt support
-- Distributed scraping
-- Configuration via environment variables
-- Extensions
+- Home
+- Dishes
+- Menu
+- About
+- Order
+- Review
 
 ## Prerequisites
 
 Before you continue, ensure you meet the following requirements:
 
-- You have installed the latest version of Python.
+- You have installed the latest version of Browser (Chrome, Firefox, Edge).
 - You are using a Windows, Linux or Mac OS machine.
 
 ## Installation
 
-Add library with `requirements.txt` file:
-
-```cmd
-pip install -r requirements.txt
-```
+> Nothing
 
 ## Usage
 
-- CRAWL CSGO
-
-```cmd
-scrapy crawl item -a app_id=730 -O csgoItem.csv
-```
-
-- CRAWL DOTA2
-
-```cmd
-scrapy crawl item -a app_id=570 -O dota2Item.csv
-```
+> Open index.html file
 
 ## Donate
 
